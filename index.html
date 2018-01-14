@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="lab13Module">
+<head>
+    <meta charset="utf-8">
+
+    <title>Lab 13</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Rubic|Coustard|Cookie|Space+Mono|Oswald|Codystar|Spirax|Cinzel|Macondo|Geostar" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+    <body ng-controller="lab13Controller">
+        <div>
+            <span>
+            
+            </span>
+            <section id="header">
+            <h1><strong>Star Words:</strong></h1><br>            
+            <h4>May The Force Be With You</h4>
+            
+                <button ng-click="addWords()">Words</button>
+                <button ng-click="addWordsDec()">Words with Decoration</button>
+                <button ng-click="addMoreWords()">More Words</button>
+                <button ng-click="addMoreWordsDec()">More Words with Decoration</button>
+
+
+
+                <ul>
+
+                     <li ng-repeat="word in newWords" class="ng-class : {{word.deco}}">{{word.stuffing}}</li>
+                </ul>
+            </div>
+            </section>
+
+            <script src="lib/angular.min.js"></script>
+            <script src="lib/angular-route.min"></script>
+            <script src="script.js"></script>
+    </body>
+</html>

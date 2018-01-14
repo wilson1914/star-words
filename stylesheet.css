@@ -1,0 +1,137 @@
+div {
+	font-family: 'Oswald', cursive;
+	color: #008744;
+	font-weight: bold;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	/*border-style: dotted;*/
+	/*border-width: 1vw;*/
+	/*border-color: darkmagenta;*/
+	/*border-radius: 6px;*/
+}
+
+.blueGraphicHeader {
+	width: 85%;
+	/*box-shadow: -1px -1px 8px white, 1px -1px 8px white, -1px 1px 8px white, 1px 1px 8px white;*/
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	line-height: 4vw;
+	margin: 2px;
+	padding: 4px;
+}
+
+html {
+	background-image: url(images/starfighters.jpg);
+    min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-image: contain;
+  background-repeat: no-repeat;
+    
+}
+
+#header {
+	border-color: white;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-width: 10px 4px;
+  	border-radius: 10px 40px;
+  	padding: 2vw;
+  	margin: 3vw;
+  	margin-top: 6vw;
+}
+
+h1 {
+	margin: 0px;
+	font-family: "Geostar";
+	font-size: 2rem;
+}
+
+h4 {
+	margin-top: -5px;
+	padding-bottom: 1rem;
+	font-family: "Helvetica";
+}
+
+.one {
+	color: darkblue;
+	background-color: darkred;
+	text-decoration: underline;
+	font-family: 'Cinzel', cursive;
+
+}
+
+.two {
+	background-color: green;
+	color: white;
+	text-decoration: overline;
+	font-family: 'Rubic', cursive;
+
+}
+
+.three {
+	color: grey;
+	background-color: blue;
+	border: 3px 3px 3px 3px dashed blue;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.four {
+	color: purple;
+	background-color: whitesmoke;
+	font-style: italic;
+	font-family: 'Text Me One', cursive;
+
+}
+
+.five {
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	font-family: 'Spirax', cursive;
+
+}
+
+.six {
+	color: blue;
+	background-color: white;
+	font-family: 'Cookie', cursive;
+
+
+}
+
+.seven {
+	color: red;
+	background-color: black;
+	font-family: 'Space Mono', cursive;
+
+}
+
+.eight {
+	color: black;
+	background-color: red;
+	border: 3px 3px 3px 3px solid red;
+	font-family: 'Coustard', cursive;
+
+}
+
+.nine {
+	color: blue;
+	background-color: whitesmoke;
+	text-decoration: overline;
+	font-family: 'Codystar', cursive;
+
+}
+
+.ten {
+	color: yellow;
+	background-color: whitesmoke;
+	text-decoration: line-through;
+	font-family: 'Macondo', cursive;
+
+
+}
